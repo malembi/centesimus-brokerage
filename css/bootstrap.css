@@ -1116,14 +1116,20 @@ figure {
 img {
   vertical-align: middle;
 }
+.img-resp {
+  width:190%;
+
+
+}
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  /* display: block; */
+  max-width: 150%;
+  /* height: auto; */
+  margin-left: -120px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -3974,10 +3980,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   margin-left: -1px;
 }
+.logo {
+  width:25%;
+}
+.navi {
+  margin-top: 40px;
+}
 .nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+
 }
 .nav > li {
   position: relative;
