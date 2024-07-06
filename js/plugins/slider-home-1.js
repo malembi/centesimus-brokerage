@@ -16,7 +16,7 @@ $( document ).ready(function() {"use strict";
                             jsFileLocation: "../../revolution/js/",
                             sliderLayout: "auto",
                             
-                            delay: 9000,
+                            delay: 5000,
                             navigation: {
                                 arrows: {
                                     style: "hermes",
@@ -60,7 +60,7 @@ $( document ).ready(function() {"use strict";
                             jsFileLocation: "../../revolution/js/",
                             sliderLayout: "fullscreen",
                             
-                            delay: 9000,
+                            delay: 5000,
                             navigation: {
                                 arrows: {
                                     style: "hermes",

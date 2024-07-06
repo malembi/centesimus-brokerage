@@ -168,12 +168,12 @@
 										<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="google plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 										<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
 									</ul>
-									<select class="lang">
+									<!-- <select class="lang">
 										<option data-class="usa">English</option>
 										<option data-class="italy">Italian</option>
 										<option data-class="fr">French</option>
 										<option data-class="gm">German</option>
-									</select>
+									</select> -->
 								</div>
 								</div>
 							</div>
@@ -186,10 +186,10 @@
 							<div class="row">
 									<div class="col-md-12">
 											<div class="navi-warp-home-1 d-flex justify-content-between align-items-center">
-													<a href="index.html" class="logo"><img src="images/cLogo.png" class="img-responsive" alt="Image"></a>
+													<a href="index.html" class="logo"><img src="images/cLogo.png" class="img-responsive" alt="Image" style="margin-top: -40px; margin-left: -200px;"></a>
 													<a href="#menu" class="btn-menu-mobile"><i class="fa fa-bars" aria-hidden="true"></i></a>
 													<nav class="navi">
-															<ul class="navi-level-1 active-subcolor">
+															<ul class="navi-level-1 active-subcolor" style="margin-right: -120px;">
 																	<li class="active">
 																			<a href="index.html">Home</a>
 																	</li>
@@ -219,15 +219,15 @@
 			
 			<section class="no-padding sh-contact">
 				<div class="sub-header ">
-					<span>CONNECT WITH US</span>
-					<h3>GET IN TOUCH</h3>
-					<ol class="breadcrumb">
+					<span></span>
+					<h3 style="margin-top: 45px; margin-left: -40px;">CONNECT WITH US</h3>
+					<!-- <ol class="breadcrumb">
  						<li>
  							<a href="#"><i class="fa fa-home"></i> HOME     </a>
  						</li>
  						
  						<li class="active">CONTACT US</li>
- 					</ol>
+ 					</ol> -->
 				</div>
 			</section>
 			<!-- /subheader -->
@@ -239,28 +239,31 @@
 							<div class="iconbox-inline">
 								<span class="icon icon-location2"></span>
 								<h4>Head Office</h4>
-								<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim adesg ens minim veniam.</p>
+								<p style="font-size: 20px;">Nairobi</p>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="iconbox-inline">
 								<span class="icon icon-phone"></span>
 								<h4>Phone Numbers</h4>
-								<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim adesg ens minim veniam.</p>
+								<p style="font-size: 20px;"><a href="tel:0100123456789">+254712345678</a></p>
+								<p style="font-size: 20px;"><a href="tel:0100123456789">+254712345678</a></p>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="iconbox-inline">
 								<span class="icon icon-envelop"></span>
 								<h4>E-mail Address</h4>
-								<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim adesg ens minim veniam.</p>
+								<p style="font-size: 20px;"><a href="mailto:admin@centesimus.com">admin@centesimus.com</a></p>
+								<p style="font-size: 20px;"><a href="mailto:admin@centesimus.com">info@centesimus.com</a></p>
+
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- /Iconbxo -->
-			<div id="map-canvas" class="map-warp" style="height: 360px;"></div>
+			<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35868998928!2d36.68258214148946!3d-1.3028602853655684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1720090969279!5m2!1sen!2ske" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 			<!-- /Map -->
 
 			<section>
@@ -288,7 +291,7 @@
 								</div>
 							</div>
 							<div class="col-md-12">
-								<button type="submit" class="btn-main-color"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
+								<button type="submit" class="btn-main-color" style="color: rgb(196, 10, 10);"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
 							</div>
 						</div>
 					</div>
@@ -301,7 +304,8 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="subcribe-warp">
-<p class="sub-text-subcri">Subscribe for </p>								<form class="form-inline form-subcri">
+<p class="sub-text-subcri">Subscribe for </p>
+<form class="form-inline form-subcri" action="https://formspree.io/f/xeqbgvdr" id="contact" name="contact"  method="post">
 								  <div class="form-group">
 								    <label for="exampleInputName2"><small>our <span> latest company</span>updates</small></label>
 								    <input type="text" class="form-control" id="exampleInputName2" placeholder="Your E-mail Address">
