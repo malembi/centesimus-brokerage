@@ -10,7 +10,7 @@ $( document ).ready(function() {"use strict";
                             sliderType: "standard",
                             jsFileLocation: "../../revolution/js/",
                             sliderLayout: "auto",
-                            delay: 5000,
+                             
                             navigation: {
                                 arrows: {
                                     style: "custom",

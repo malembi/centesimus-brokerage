@@ -70,6 +70,6 @@ $( document ).ready(function() {"use strict";
           timeout:       1,
           showInfo:       false,
           opacity:        1,
-          background:     ['#0a2c4e']
+          background:     ['rgb(227, 174, 27)']
       });
   })(jQuery);
