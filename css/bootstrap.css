@@ -1117,7 +1117,7 @@ img {
   vertical-align: middle;
 }
 .img-resp {
-  width:190%;
+  width:100%;
 
 
 }
@@ -1129,7 +1129,7 @@ img {
   /* display: block; */
   max-width: 130%;
   /* height: auto; */
-  margin-left: -230px;
+  /* margin-left: -230px; */
 }
 .img-rounded {
   border-radius: 6px;
@@ -3981,7 +3981,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 .logo {
-  width:25%;
+  width: 25%;
 }
 .navi {
   margin-top: 40px;
@@ -4447,6 +4447,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-form .form-group:last-child {
     margin-bottom: 0;
+  }
+  .royal_loader {
+    overflow: hidden;
   }
 }
 @media (min-width: 768px) {
