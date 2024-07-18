@@ -11449,10 +11449,13 @@ small.time {
 @media only screen and (max-width: 479px) {
   /* Header 1 */
   .header-1-fix .logo img {
-    max-width: 120%;
+  width: 100%;
+    margin-left: -60px;
+     /*margin-bottom: -120px; */
   }
   .logo {
     width: 50%;
+    
   }
   .header-1-fix .btn-menu-mobile,
   .navi-warp-home-1 .subnavi a {
