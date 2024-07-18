@@ -89,7 +89,7 @@ var Royal_Preloader = {
             this._text_loader_overlay = $("<div>").css("background-color", this._background[0]).appendTo(this._text_loader);
         } else {
             this._logo_loader = $("<div>").css("background-image", 'url("images/nwlogo.png")').addClass("loader").appendTo(this._overlay);
-            this._logo_loader_meter = $("<div>").css("background-color", this._background[0]).appendTo(this._logo_loader);
+            this._logo_loader_meter = $("<div>").css("background-color", this._background[0]);
             this._percentage = $("<div>").css("background-color", this._background[0]).addClass("percentage").appendTo(this._overlay).hide(); // Hide percentage
         }
         
