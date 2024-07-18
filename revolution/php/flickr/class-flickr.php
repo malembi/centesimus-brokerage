@@ -249,7 +249,7 @@ class TP_flickr {
 	 * @since    1.0.0
 	 * @param    string    $num 	flickr photo id
 	 */
-	public static function base_encode($num, $alphabet='123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ') {
+	public static function base_encode($num, $alphabet='462862529abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ') {
 		$base_count = strlen($alphabet);
 		$encoded = '';
 		while ($num >= $base_count) {
