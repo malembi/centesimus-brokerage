@@ -220,6 +220,10 @@ input[type=email] {
   color: rgb(227, 174, 27);
   border-color: rgb(227, 174, 27);
 }
+.img-responsive{
+  margin-top: -40px;
+  margin-left: -10050px;
+}
 .border-dark-2 {
   line-height: 38px;
   background: transparent;
@@ -2675,6 +2679,7 @@ body.royal_loader {
   color: #222;
   margin-bottom: 40px;
 }
+
 .quote-inner-h3 p span {
   color:  rgb(227, 174, 27);}
 /* Core value Home 3 */
@@ -2699,6 +2704,10 @@ body.royal_loader {
   background: url(images/bg-content/cb-h3.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+.img-responsive{
+  margin-top: -40px;
+  margin-left: -250px;
 }
 .cbw-h3 .cb-form {
   padding-bottom: 100px;
@@ -11503,6 +11512,7 @@ small.time {
   .info-warp-home-7 .logo {
     top: 5px;
   }
+
   /* Header 8 */
   .navi-warp-home-8 .btn-menu-mobile,
   .navi-warp-home-8-inner .subnavi a {
