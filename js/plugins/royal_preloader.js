@@ -76,7 +76,7 @@ var Royal_Preloader = {
         this._overlay = $("<div>").attr("id", "royal_preloader").addClass(this._mode);
         this._overlay_bg =
             $("<div>").addClass("background").appendTo(this._overlay).css({
-                "background-color": this._background[0],
+                "background-color": "#fff",
                 "background-size": "cover", // Ensures the background image covers the entire element
                 "background-repeat": "no-repeat",
                 "background-position": "center center"
