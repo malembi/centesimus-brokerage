@@ -2354,7 +2354,7 @@ body.royal_loader {
   width: 100%;
 }
 .owl-pagination {
-  line-height: 15px;
+  line-height: 295px;
   text-align: right;
 }
 .owl-page {
@@ -11150,6 +11150,7 @@ small.time {
   .demo-about-h1 .iconbox {
     width: 100%;
     float: none;
+  
   }
   /* Testimonial */
   .tw-h1 .owl-controls {
@@ -11448,7 +11449,10 @@ small.time {
 @media only screen and (max-width: 479px) {
   /* Header 1 */
   .header-1-fix .logo img {
-    max-width: 120px;
+    max-width: 120%;
+  }
+  .logo {
+    width: 50%;
   }
   .header-1-fix .btn-menu-mobile,
   .navi-warp-home-1 .subnavi a {
