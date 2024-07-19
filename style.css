@@ -1613,6 +1613,7 @@ blockquote.second-bq {
 body.royal_loader {
   background: none;
   visibility: hidden;
+  
 }
 #royal_preloader {
   width: 100%;
@@ -2355,7 +2356,7 @@ body.royal_loader {
   width: 100%;
 }
 .owl-pagination {
-  line-height: 295px;
+  line-height: 400px;
   text-align: right;
 }
 .owl-page {

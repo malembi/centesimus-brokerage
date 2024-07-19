@@ -76,7 +76,7 @@ var Royal_Preloader = {
         this._overlay = $("<div>").attr("id", "royal_preloader").addClass(this._mode);
         this._overlay_bg =
             $("<div>").addClass("background").appendTo(this._overlay).css({
-                "background-color": this._background[0],
+                "background-color": "#fff",
                 "background-size": "cover", // Ensures the background image covers the entire element
                 "background-repeat": "no-repeat",
                 "background-position": "center center"
@@ -89,7 +89,7 @@ var Royal_Preloader = {
             this._text_loader_overlay = $("<div>").css("background-color", this._background[0]).appendTo(this._text_loader);
         } else {
             this._logo_loader = $("<div>").css("background-image", 'url("images/nwlogo.png")').addClass("loader").appendTo(this._overlay);
-            this._logo_loader_meter = $("<div>").css("background-color", this._background[0]).appendTo(this._logo_loader);
+            this._logo_loader_meter = $("<div>").css("background-color", this._background[0]);
             this._percentage = $("<div>").css("background-color", this._background[0]).addClass("percentage").appendTo(this._overlay).hide(); // Hide percentage
         }
         
